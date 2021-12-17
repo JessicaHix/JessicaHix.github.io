@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>History</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Papyrus", sans-serif}
+.w3-bar,h1,button {font-family: "Papyrus", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-pink w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-pink" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="Homepage.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="History.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">History</a>
+    <a href="Applications.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Software</a>
+    <a href="Subtypes.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Subtypes</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="Homepage.html" class="w3-bar-item w3-button w3-padding-large">Homepage</a>
+    <a href="Applications.html" class="w3-bar-item w3-button w3-padding-large">Software</a>
+    <a href="Subtypes.html" class="w3-bar-item w3-button w3-padding-large">Subtypes</a>
+  </div>
+</div>
+
+<!-- Header -->
+ <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="Digitalart7.png" alt="Hamburger Catering" width="1600" height="800">
+  
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>History(1960-1990)</h1>
+      <h5 class="w3-padding-32">At its inception, digital art marked a relationship between artists and engineers/scientists, which explored the connections between art and technology.</h5>
+
+      <p class="w3-text-grey">. The First experimentations with computers by artists were made in the early 1960’s, notably by John Whitney, who created the first computer generated art using mathematical functions to transform visual components while making art. The term “digital art” was first used in 1980 after computer engineers created a paint program known as AARON, which was programmed to make large drawings on sheets of paper. With the advent of the internet during the 1990’s which made digital more accessible to artists, experimentations with artists could use the interactive elements of the internet to create art. Improvements in digital technology made it easier to share and download video onto a computer, allowing images and film to be digitally edited.
+</p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class=" w3-padding-64 w3-text-red"></i>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class=" w3-padding-64 w3-text-red w3-margin-right"></i>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>Present</h1>
+      <h5 class="w3-padding-32">Digital art revolutionized the way art could be made, distributed, viewed, and easily transported and seen via the television, computer screen, social media, or internet. This has empowered artists to create their own careers without the necessity of representation, utilizing contemporary tools like crowdsourcing to fund their work, and the potential to go viral to spread their art into the mainstream consciousness.
+</h5>
+
+      <p class="w3-text-grey"></p>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge"></h1>
+</div>
+
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
